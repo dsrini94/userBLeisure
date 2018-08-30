@@ -1,0 +1,175 @@
+.ui.dropdown.drop1{
+  background-color: #DDCBC1 !important;
+ }
+.ui.selection.active.dropdown.drop1:hover .menu{
+  background-color: #DDCBC1 !important;
+ }
+
+.loginPageSection1{
+    background-color:#800000;
+    /*background: linear-gradient(to right,#FDBC57, #EC537D);*/
+      /*background: linear-gradient(to right, #F1619F , #8F6EDF);*/
+       /*background: linear-gradient(to right,#3BE3E1, #4AAEF0);*/
+       /*background-color: #4c3749;*/
+}
+
+.imgHeight{
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   overflow: scroll;
+   overflow-x: hidden !important;
+}
+/* .radiocustom .ui.checkbox+label{
+  color: white;
+} */
+.login{
+  background-color:#800000;
+  background-repeat: no-repeat;
+  height:100vh;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+  background-size: auto;
+}
+
+.MenuHeader{
+  background-color: #800000 !important;
+}
+
+.UserLogin
+{
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.textField{
+  -moz-border-radius:10px; /* Firefox */
+    -webkit-border-radius: 10px; /* Safari, Chrome */
+    -khtml-border-radius: 10px; /* KHTML */
+    border-radius: 10px; /* CSS3 */
+    behavior:url("border-radius.htc");
+}
+
+.loginPageSection2{
+  height: 100%;
+}
+
+.newUserSpan{
+  color:white;
+  display: inline-block !important;
+  /*border-bottom: 1px solid white;*/
+}
+.ui.selection.active.dropdown:hover .menu {
+  background-color: 'red' !important
+}
+.companyName{
+  font-family:'Cookie', cursive;
+  color:white;
+  font-size: 35px;
+}
+
+.LoginPageCompanyName{
+  font-family:'Cookie', cursive;
+  color:white;
+  font-size: 65px;
+}
+
+.RegPageCompanyName{
+  font-family:'Cookie', cursive;
+  color:white;
+  font-size: 35px;
+}
+
+.subheaders{
+  font-family: 'Quicksand', sans-serif;
+  color:white;
+  font-size: 18px;
+}
+
+.companyName1{
+  font-family:'Cookie', cursive;
+  font-size: 35px;
+}
+
+
+.registerPage{
+  background-color: #800000;
+  /*background: linear-gradient(to right, #F1619F , #8F6EDF);*/
+
+}
+
+.appbar{
+}
+
+.subHeaders{
+  color:white;
+    font-family:'Cookie', cursive;
+  font-size: 25px;
+}
+
+.journeySymbol{
+  font-size: 35px !important;
+}
+
+.abbrevations{
+  font-size: 15px !important;
+}
+
+.accronym{
+  font-size: 17px !important;
+}
+.expandedCards{
+  height:70vh;
+}
+
+.date{
+  font-size: 12px !important;
+  font-weight: bold;
+}
+
+.time{
+  font-size: 15px !important;
+  font-weight: bold;
+}
+.metaData{
+  color: black;
+}
+
+.vhsidebar{
+  height:100vh !important;
+}
+.imgHeight{
+  background-image: url('./../images/blur.jpg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   overflow: auto;
+}
+.customInput{
+  margin: 0;
+    max-width: 100%;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    outline: 0;
+    -webkit-tap-highlight-color: rgba(255,255,255,0);
+    text-align: left;
+    line-height: 1.21428571em;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    padding: .67857143em 1em;
+    background: #fff;
+    border: 1px solid rgba(34,36,38,.15);
+    color: rgba(0,0,0,.87);
+    border-radius: .28571429rem;
+    -webkit-transition: box-shadow .1s ease,border-color .1s ease;
+    transition: box-shadow .1s ease,border-color .1s ease;
+    box-shadow: none;
+}
+
+#app{
+  background-image: url('');
+}

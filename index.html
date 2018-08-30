@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+   <head>
+     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYfugpNdv13RN5cqZbzXU4vtktU-pDwZA"> </script>
+      <meta charset = "UTF-8">
+      <title>BLeisure</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css"></link>
+      <link rel="stylesheet" href="css/style.css"></link>
+      <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
+      <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+      <div id="map"></div>
+      <script>
+        function initMap() {
+          var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 100,
+            center: {lat: -25.363882, lng: 131.044922 }
+          });
+
+          map.addListener('click', function(e) {
+            placeMarkerAndPanTo(e.latLng, map);
+          });
+        }
+
+        function placeMarkerAndPanTo(latLng, map) {
+          var marker = new google.maps.Marker({
+            position: latLng,
+            map: map
+          });
+          map.panTo(latLng);
+        }
+      </script>
+   </head>
+
+   <body>
+      <div id = "app"></div>
+      <script src = "index.js"></script>
+   </body>
+
+</html>
