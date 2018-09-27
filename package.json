@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --hot",
-    "build": "webpack -p && cd server && node server.js"
+    "build": "webpack-dev-server --hot",
+    "start": "webpack -p && cd server && node server.js"
   },
   "author": "",
   "license": "ISC",
